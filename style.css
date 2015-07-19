@@ -4,6 +4,12 @@
   }
 }
 
+@media ( min-width: 990px) {
+	#slideshow {
+		width: 760px;
+	}
+}
+
 .MS-Title {
 	font-family: 'Indie Flower', cursive;
 }
