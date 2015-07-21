@@ -32,3 +32,79 @@
 }
 
 
+/*this * element is to erase all padding and margin done by the web browser by default i red about this we need it*/
+* {
+  padding: 0;
+  margin: 0;
+}
+/*this is the navbar display*/
+.navbars {
+    background-color: darkgray;
+    height: 100px;
+    padding-top: 50px
+}
+/*the reason why this two are together is because were calling a class under another class. we need to call it like how is
+Displayed*/
+.navbars .third {
+  height: 50px;
+  width: 610px;
+  margin: 0 auto;
+}
+/*same like above were. were goin threw a class under another class and getting the element li only under .third class*/
+.navbars .third li {
+  list-style-type: none;
+  width: 150px;
+  float: right;
+  text-align: center;
+}
+
+li a{
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Indie Flower', cursive;
+  color: black;
+  display: block;
+}
+li a:hover {
+  background-color: lightblue;
+  color:black;
+  border-radius: 10px;
+}
+
+
+
+
+@media (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+}
+@media (max-width: 990px) {
+  .logo2 {
+    display: none;
+  }
+}
+
+@media ( min-width: 990px) {
+	#slideshow {
+		width: 760px;
+	}
+}
+/*@media ( min-width: 990px) {
+	#footerr {
+		width: 760px;
+	}
+}*/
+
+
+
+
+.MS-Title {
+	font-family: 'Indie Flower', cursive;
+}
+#content {
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+
